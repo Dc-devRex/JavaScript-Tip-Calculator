@@ -1,0 +1,132 @@
+body {
+    /*background-color: #273D59;*/
+    background-image: linear-gradient(to right, #273D59 , #BF2C53);
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    background-color: rgb(201, 206, 190);
+    border-radius: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+
+    font-family: 'Nunito Sans';
+    font-size: 28px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nunito Sans';
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+input[type=text] {
+    width: 50%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px 0 grey;
+    transition: .3s;
+}
+
+input[type=text]:focus {
+    border-color: #344F73;
+    box-shadow: 0 0 8px 0 #344F73;
+}
+
+#container {
+    background-color: #D7D9D2;
+    opacity: 0.85;
+    height: 575px;
+    width: 360px;
+    margin: 100px auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 0 8px 0 grey;
+
+    text-align: center;
+    color: black;
+}
+
+#calculator {
+    display: inline-block;
+}
+
+#totalamt {
+    margin-left: 1px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.dolla {
+    margin-left: -20px;
+}
+
+#Qual {
+    margin-left: -10px;
+}
+
+.box {
+    margin-top: 24px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box select {
+    background: #D7D9D2;
+    color: black;
+    padding: 10px;
+    width: 220px;
+    height: 45px;
+    border: none;
+    font-size: 22x;
+    box-shadow: 0 5px 25px rgba(0,0,0,.5);
+    outline: none;
+}
+
+.how {
+    margin-top: 28%;
+}
+
+#peopleamt {
+    margin-left: 40px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.copy {
+    color: #FFFF;
+    text-align: center;
+}
+
+#calculate {
+    margin-top: 40px;
+    font-size: 12px;
+    color: #FFFF;
+    font-family: 'Nunito Sans';
+    background-color: #344F73;
+    border-style: solid;
+    border-color: #FFFF;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#calculate:hover:before {
+    background: rgb(42, 73, 114);
+}
+
+#tip {
+    font-size: 24px;
+}
